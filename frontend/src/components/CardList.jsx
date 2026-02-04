@@ -109,7 +109,7 @@ const CardList = () => {
               alt="Image of movie poster"
               className="h-44 w-fit object-center object-cover"
             />
-            <p className="text-center pt-2">A nice movie to watch</p>
+            <p className="text-center pt-2">{item.title}</p>
           </SwiperSlide>
         ))}
       </Swiper>
